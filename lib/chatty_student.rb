@@ -1,7 +1,9 @@
 class ChattyStudent < Student
   def raise_hand
-    super
-    "Pick me!\nPick me!\nPick me!\nPick me!\nPick me!\nPick me!\nPick me!\nPick me!\nPick me!\n"
+    10.times do
+      super
+    end
+    #{}"Pick me!\nPick me!\nPick me!\nPick me!\nPick me!\nPick me!\nPick me!\nPick me!\nPick me!\n"
   end
 
   def hello
